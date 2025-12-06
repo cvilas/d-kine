@@ -19,7 +19,7 @@ function draw() {
   // line
   strokeWeight(2);
   stroke(127)
-  line(centerX, centerY, centerX+300, centerY)
+  line(centerX, centerY, centerX+260, centerY)
 
   // Draw the small circle
   fill(0);
@@ -50,6 +50,6 @@ function draw() {
   textFont('Courier');
   textStyle(BOLD);
   text("DIRECTED", centerX+60, centerY - 5);
-  text("KINETICS", centerX+60, centerY + 30);
+  text("KINETICS", centerX+60, centerY + 28);
 
 }
